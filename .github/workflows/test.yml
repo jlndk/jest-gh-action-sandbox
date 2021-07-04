@@ -30,7 +30,7 @@ jobs:
         run: yarn --pure-lockfile --production=false
 
       - name: Run Jest
-        uses: jlndk/github-action-jest@1.0.2
+        uses: jlndk/github-action-jest@02dcd065326e4dcbcac1d2644c4df9d9b49c8cdd
         with:
           test-command: 'yarn test'
         env:
